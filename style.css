@@ -58,9 +58,14 @@ body {
   align-items: center;
 }
 
-#todo-list li button {
+#todo-list li button, .delete-button {
   background: none;
   border: none;
   color: red;
   cursor: pointer;
+}
+
+/* Now change edit-button */
+#todo-list li button.edit-button {
+  color: #007BFF;
 }
